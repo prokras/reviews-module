@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <MTR_Reviews>
+            <active>true</active>
+            <codePool>local</codePool>
+        </MTR_Reviews>
+    </modules>
+</config>

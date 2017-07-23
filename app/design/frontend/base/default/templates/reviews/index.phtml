@@ -1,0 +1,18 @@
+<?php
+echo "<h1>Reviews page</h1>";
+$reviews = $this->getCollection();
+//foreach ($attribute->getSource()->getAllOptions(true, true) as $instance) {
+//    echo $instance['label'] . '<br/>';
+//}
+//var_dump($reviews); die();
+foreach ($reviews as $review) {
+//    echo "<pre>";
+//    var_dump($review);
+//    echo "</pre>";
+    echo $review->getTitle() . "<br/>";
+}
+
+//var_dump($this->getPagerHtml());die();
+echo $this->getPagerHtml();
+echo "-------------";
+//var_dump($this->getPagerHtml());die();

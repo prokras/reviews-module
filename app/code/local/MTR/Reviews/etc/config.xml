@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MTR_Reviews>
+            <version>0.1.0</version>
+        </MTR_Reviews>
+    </modules>
+    <frontend>
+        <routers>
+            <reviews>
+                <use>standard</use>
+                <args>
+                    <module>MTR_Reviews</module>
+                    <frontName>reviews</frontName>
+                </args>
+            </reviews>
+        </routers>
+        <layout>
+            <updates>
+                <reviews>
+                    <file>reviews.xml</file>
+                </reviews>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <reviews>
+                <class>MTR_Reviews_Block</class>
+            </reviews>
+        </blocks>
+    </global>
+</config>
